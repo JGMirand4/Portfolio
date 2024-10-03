@@ -7,45 +7,56 @@
     <title>Portfólio Pessoal</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 class="fade-in">Meu Portfólio</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1 class="fade-in">Meu Portfólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section id="sobre" class="fade-in">
-        <h2>Sobre Mim</h2>
-        <p>Olá, sou um desenvolvedor apaixonado por tecnologia e programação. Este portfólio contém alguns dos meus projetos, que mostram minhas habilidades em desenvolvimento web e back-end.</p>
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá, sou um desenvolvedor apaixonado por tecnologia e programação. Este portfólio contém alguns dos meus projetos que mostram minhas habilidades em desenvolvimento web, back-end e mais.</p>
+        </div>
     </section>
 
     <section id="projetos" class="fade-in">
-        <h2>Projetos</h2>
-        <div class="projeto-card">
-            <h3>Projeto 1</h3>
-            <p>Descrição do projeto 1. Tecnologias usadas: HTML, CSS, JavaScript.</p>
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do projeto 1. Tecnologias usadas: HTML, CSS, JavaScript.</p>
+                </div>
+                <div class="projeto-card">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do projeto 2. Tecnologias usadas: Python, Django, SQL.</p>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+            </div>
         </div>
-        <div class="projeto-card">
-            <h3>Projeto 2</h3>
-            <p>Descrição do projeto 2. Tecnologias usadas: Python, Django, SQL.</p>
-        </div>
-        <!-- Adicione mais projetos conforme necessário -->
     </section>
 
     <section id="contato" class="fade-in">
-        <h2>Contato</h2>
-        <p>Entre em contato através dos links abaixo:</p>
-        <ul>
-            <li><a href="https://github.com/seu-github" target="_blank">GitHub</a></li>
-            <li><a href="https://wa.me/seu-telefone" target="_blank">WhatsApp</a></li>
-            <li><a href="mailto:seu-email@gmail.com">Email</a></li>
-        </ul>
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato através dos links abaixo:</p>
+            <ul class="contato-links">
+                <li><a href="https://github.com/seu-github" target="_blank">GitHub</a></li>
+                <li><a href="https://wa.me/seu-telefone" target="_blank">WhatsApp</a></li>
+                <li><a href="mailto:seu-email@gmail.com">Email</a></li>
+            </ul>
+        </div>
     </section>
 
     <footer>
