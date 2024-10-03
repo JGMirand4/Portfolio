@@ -3,66 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
+        <h1 class="fade-in">Meu Portfólio</h1>
         <nav>
             <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home" class="banner">
-        <div class="container">
-            <h1>Bem-vindo ao Meu Portfólio</h1>
-            <p>Eu sou [Seu Nome], desenvolvedor especializado em [Sua Especialidade].</p>
-            <a href="#projetos" class="btn">Veja meus projetos</a>
-        </div>
+    <section id="sobre" class="fade-in">
+        <h2>Sobre Mim</h2>
+        <p>Olá, sou um desenvolvedor apaixonado por tecnologia e programação. Este portfólio contém alguns dos meus projetos, que mostram minhas habilidades em desenvolvimento web e back-end.</p>
     </section>
 
-    <section id="sobre" class="sobre">
-        <div class="container">
-            <h2>Sobre Mim</h2>
-            <p>Sou um desenvolvedor com experiência em várias tecnologias modernas. Apaixonado por inovação e por criar soluções impactantes.</p>
+    <section id="projetos" class="fade-in">
+        <h2>Projetos</h2>
+        <div class="projeto-card">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1. Tecnologias usadas: HTML, CSS, JavaScript.</p>
         </div>
+        <div class="projeto-card">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2. Tecnologias usadas: Python, Django, SQL.</p>
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
     </section>
 
-    <section id="projetos" class="projetos">
-        <div class="container">
-            <h2>Meus Projetos</h2>
-            <div class="projeto">
-                <h3>Projeto 1</h3>
-                <p>Descrição detalhada do projeto.</p>
-            </div>
-            <div class="projeto">
-                <h3>Projeto 2</h3>
-                <p>Descrição detalhada do projeto.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contato" class="contato">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/seu-perfil" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:seuemail@email.com"><i class="fas fa-envelope"></i></a>
-                <a href="https://wa.me/5511999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            </div>
-        </div>
+    <section id="contato" class="fade-in">
+        <h2>Contato</h2>
+        <p>Entre em contato através dos links abaixo:</p>
+        <ul>
+            <li><a href="https://github.com/seu-github" target="_blank">GitHub</a></li>
+            <li><a href="https://wa.me/seu-telefone" target="_blank">WhatsApp</a></li>
+            <li><a href="mailto:seu-email@gmail.com">Email</a></li>
+        </ul>
     </section>
 
     <footer>
-        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+        <p>© 2024 - Meu Portfólio</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
