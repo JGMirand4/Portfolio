@@ -11,6 +11,23 @@ body {
     line-height: 1.6;
 }
 
+.sobre-mim-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foto-sobre-mim {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+
+
 h1, h2, h3 {
     color: #58a6ff;
 }
@@ -128,10 +145,11 @@ footer {
 
 .fade-in {
     opacity: 0;
-    animation: fade-in 2s forwards;
+    transform: translateY(20px); 
+    transition: opacity 1s ease-out, transform 1s ease-out; 
 }
 
-@keyframes fade-in {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0); 
 }

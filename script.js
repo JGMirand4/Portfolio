@@ -1,5 +1,6 @@
 window.addEventListener('scroll', function() {
     const fadeElements = document.querySelectorAll('.fade-in');
+    
     fadeElements.forEach(el => {
         const top = el.getBoundingClientRect().top;
         const height = window.innerHeight;
